@@ -2199,7 +2199,7 @@ def bot(op):
                                           ret_ += "\n╠ Durasi : {}".format(str(song[1]))
                                           ret_ += "\n╠ Link : {}".format(str(song[3]))
                                           ret_ += "\n╚══[ Waiting Audio ]"
-                                     cl.sendText(msg.to, str(ret_))
+                                      cl.sendText(msg.to, str(ret_))
                                       cl.sendText(msg.to, "Mohon bersabar musicnya lagi di upload")
                                       cl.sendAudioWithURL(msg.to, song[3])
                                   except:
