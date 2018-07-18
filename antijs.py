@@ -2224,15 +2224,6 @@ def bot(op):
                                     cl.sendText(msg.to,"「Google Image」\nType : Search Image\nTime taken : %seconds" % (start))
                                     cl.sendImageWithURL(msg.to, str(path))
 
-                        elif cmd.startswith("image "):
-                          if msg._from in admin:
-                            try:
-                                sep = text.split(" ")
-                                txt = text.replace(sep[0] + " ","")
-                                url = requests.get("http://rahandiapi.herokuapp.com/imageapi?key=betakey&q={}".format(txt))
-                                data = url.json()
-                                cl.sendImageWithURL(to, random.choice(data["result"]))
-
                         elif cmd.startswith("ytmp4: "):
                           if msg._from in admin:
                             try:
