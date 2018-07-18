@@ -19,7 +19,7 @@ INSTALL PY3 DI TERMUX
 -pip3 install wikipedia
 -pip3 install tweepy
 -pip3 install youtube_dl
--git clone https://github.com/arifistifik/2019
+-git clone https://github.com/
 -cd 2019
 python3 antijs.py
 #==================
@@ -42,15 +42,12 @@ sudo pip3 install pafy
 sudo pip3 install wikipedia
 sudo pip3 install tweepy
 sudo pip3 install youtube_dl
-git clone https://github.com/arifistifik/2019.git
+git clone https://github.com/
 cd 2019
 python3 antijs.py
 Cara Menjalankan Bot Kembali :
 cd 2019
 antijs.py
-Editor BY ARIFISTIFIK
-STAY ON DPK FAMS
-ID LINE : arif.mh
  
 #THANKS TO ALLAH.SWT
 SC NYA ADA DEH 😅😁
