@@ -315,8 +315,10 @@ def help():
                   "  " + key + "Help4\n" + \
                   "  " + key + "Help5\n" + \
                   "  " + key + "Help6\n" + \
+                  "  " + "\n" + \
                   " [Type Self]" + "\n" + \
                   "  " + key + "Self [On/Off]\n" + \
+                  "  " + "\n" + \
                   "  " + key + "Speed/Sp\n" + \
                   "  " + key + "Sprespon\n" + \
                   "  "
